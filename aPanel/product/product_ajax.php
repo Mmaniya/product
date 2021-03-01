@@ -9,8 +9,8 @@ if ($action == 'add_edit_product') {
 
     $param['product_name']     = $_POST['product_name'];
     $param['sku']              = $_POST['sku'];
-    $param['price']            = $_POST['price'];
-    $param['special_price']    = $_POST['special_price'];
+    $param['price']            = check_input($_POST['price']);
+    $param['special_price']    = check_input($_POST['special_price']);
     $param['description']      = check_input($_POST['description']);
 
     $total = count($_FILES['upload_img']['name']);

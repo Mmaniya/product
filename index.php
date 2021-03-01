@@ -28,7 +28,6 @@
                             <img class="pic-1" src="<?php echo PRODUCT_DIR ?>/uploads/<?php echo $img[0]; ?>">
                             <img class="pic-2" src="<?php echo PRODUCT_DIR ?>/uploads/<?php echo $img[1]; ?>">
                         <?php// } ?>
-                        <!-- <img class="pic-2" src="http://bestjquery.com/tutorial/product-grid/demo5/images/img-2.jpg"> -->
                     </a>
 
 
