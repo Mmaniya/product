@@ -10,7 +10,7 @@ if ($dev_server) {
     define("BA_DBUSER", "root");
     define("BA_DBPASSWORD", "");
     define("BA_DBNAME", "product");
-    define('BASE_URL', 'http://192.168.0.111/product/');
+    define('BASE_URL', 'http://localhost/product/');
 
     // DB connection
      $con = mysqli_connect(BA_DBHOST, BA_DBUSER, BA_DBPASSWORD, BA_DBNAME);
